@@ -1,9 +1,9 @@
-package at.jku.cis.wisch.paa.api.tracking;
+package api.tracking;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import at.jku.cis.wisch.paa.storage.PaaStorage;
+import storage.PaaStorage;
 
 public class ItemVisitArchive {
 	

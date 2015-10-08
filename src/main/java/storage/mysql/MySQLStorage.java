@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.storage.mysql;
+package storage.mysql;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -13,8 +13,8 @@ import java.util.Set;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import at.jku.cis.wisch.paa.api.tracking.ItemVisit;
-import at.jku.cis.wisch.paa.storage.PaaStorage;
+import api.tracking.ItemVisit;
+import storage.PaaStorage;
 
 public class MySQLStorage implements PaaStorage {
 

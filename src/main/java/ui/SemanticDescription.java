@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.ui;
+package ui;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

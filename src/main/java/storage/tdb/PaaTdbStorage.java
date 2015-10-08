@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.storage.tdb;
+package storage.tdb;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -6,10 +6,10 @@ import java.util.Properties;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import at.jku.cis.wisch.paa.storage.mysql.MySQLStorage;
-
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.tdb.TDBFactory;
+
+import storage.mysql.MySQLStorage;
 
 public class PaaTdbStorage {
 	

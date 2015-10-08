@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.api.query;
+package queries;
 
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
@@ -11,14 +11,14 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.security.core.context.SecurityContextHolder;
 
-import at.jku.cis.wisch.paa.storage.ConnectionManager;
-
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.ReadWrite;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Model;
+
+import storage.ConnectionManager;
 
 @Path("/sparqlQuery")
 public class SparqlQueries {

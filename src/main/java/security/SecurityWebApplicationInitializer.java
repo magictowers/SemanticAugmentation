@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.security;
+package security;
 
 import org.springframework.security.web.context.*;
 

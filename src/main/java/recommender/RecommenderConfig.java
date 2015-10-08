@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.recommender;
+package recommender;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;

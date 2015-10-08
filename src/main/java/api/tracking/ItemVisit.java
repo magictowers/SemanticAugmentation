@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.api.tracking;
+package api.tracking;
 
 public class ItemVisit {
 	

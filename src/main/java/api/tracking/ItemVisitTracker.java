@@ -1,4 +1,4 @@
-package at.jku.cis.wisch.paa.api.tracking;
+package api.tracking;
 
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
@@ -11,8 +11,8 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.security.core.context.SecurityContextHolder;
 
-import at.jku.cis.wisch.paa.storage.ConnectionManager;
-import at.jku.cis.wisch.paa.storage.PaaStorage;
+import storage.ConnectionManager;
+import storage.PaaStorage;
 
 @Path("/itemVisit")
 public class ItemVisitTracker {

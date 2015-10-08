@@ -1,10 +1,10 @@
-package at.jku.cis.wisch.paa.storage;
+package storage;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import at.jku.cis.wisch.paa.storage.mysql.MySQLStorage;
-import at.jku.cis.wisch.paa.storage.tdb.PaaTdbStorage;
+import storage.mysql.MySQLStorage;
+import storage.tdb.PaaTdbStorage;
 
 public class ConnectionManager {
 	

@@ -1,8 +1,8 @@
-package at.jku.cis.wisch.paa.storage;
+package storage;
 
 import java.util.Set;
 
-import at.jku.cis.wisch.paa.api.tracking.ItemVisit;
+import api.tracking.ItemVisit;
 
 public interface PaaStorage {
 	

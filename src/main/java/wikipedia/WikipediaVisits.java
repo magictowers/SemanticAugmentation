@@ -1,8 +1,8 @@
-package at.jku.cis.wisch.paa.api.query.wikipedia;
+package wikipedia;
 
 import java.util.Set;
 
-import at.jku.cis.wisch.paa.storage.PaaStorage;
+import storage.PaaStorage;
 
 public class WikipediaVisits {
 
